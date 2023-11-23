@@ -771,9 +771,10 @@ video {
 }
 
 .FAQs .question-item label:hover {
-  color: #e32505;
   cursor: pointer;
-  border-bottom: 1px solid #e32505;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(135deg, #ff4500, #c29e00 66%);
+  border-image-slice: 1;
 }
 
 @media screen and (max-width: 768px) {
