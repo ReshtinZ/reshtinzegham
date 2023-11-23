@@ -802,6 +802,23 @@
         link.click();
         document.body.removeChild(link);
       }
+           // adding color to the FAQs when hovered
+      const labels = document.querySelectorAll(".question-item label");
+
+      labels.forEach((label) => {
+        const span = label.querySelector(".for-gradient");
+        const icon = label.querySelector(".fa-circle-chevron-down");
+
+        label.addEventListener("mouseenter", () => {
+          span.classList.add("gradient");
+          icon.classList.add("gradient");
+        });
+
+        label.addEventListener("mouseleave", () => {
+          span.classList.remove("gradient");
+          icon.classList.remove("gradient");
+        });
+      });
     </script>
   </body>
 </html>
