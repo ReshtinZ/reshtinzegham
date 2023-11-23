@@ -136,7 +136,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(/images/anas-alshanti-feXpdV001o4-unsplash.jpg);
+  background: url(images/anas-alshanti-feXpdV001o4-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -269,7 +269,7 @@ nav {
 /*-------- main-projects ---------*/
 
 .main-projects-background {
-  background: linear-gradient(rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)), url(/images/3rdnew.jpg);
+  background: linear-gradient(rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)), url(images/3rdnew.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,7 +318,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), url(/images/HGD-Media.jpeg);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), url(images/HGD-Media.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -472,7 +472,7 @@ video {
   }
  
   .projects .moshified .img {
-    background: url(/images/Moshified.png), linear-gradient(to right, black, gray);
+    background: url(images/Moshified.png), linear-gradient(to right, black, gray);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -585,7 +585,7 @@ video {
  display: flex;
  flex-direction: column;
  justify-content: center;
- background: url(/images/2ndnew.jpg);
+ background: url(images/2ndnew.jpg);
  width: 100%;
  height: 100vh;
 }
