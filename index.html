@@ -801,15 +801,31 @@
         button.classList.add("activebtn");
       });
 
-      // Download Button Functionality
+         // Download Button Functionality with Delayed Animation and Button Reset
       function downloadCV() {
-        // Simulate a click on an invisible <a> element to trigger the download
-        var link = document.createElement("a");
-        link.href = "images/CV.pdf";
-        link.download = "CV.pdf";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        // Simulate the animation duration
+        const animationDuration = 3000;
+
+        // Trigger the button animation
+        const button = document.querySelector(".download");
+        button.classList.add("activebtn");
+
+        // Delay the download after the animation duration
+        setTimeout(() => {
+          // Actual download logic goes here
+          // Simulate the download by creating a link and triggering a click
+          var link = document.createElement("a");
+          link.href = "/images/CV.pdf";
+          link.download = "CV.pdf";
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+
+          // Delay the resetting of the button state after the download
+          setTimeout(() => {
+            button.classList.remove("activebtn");
+          }, animationDuration);
+        }, animationDuration);
       }
            // adding color to the FAQs when hovered
       const labels = document.querySelectorAll(".question-item label");
