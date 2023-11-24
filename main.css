@@ -540,51 +540,25 @@ video {
 
 .projects .col .button {
   margin-top: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 10px 20px 10px 5px;
   position: relative;
+  margin: 40px 20px 20px 0;
 }
 
-.projects .col .button a {
-  display: flex;
-  align-items: center;
-  color: #e32505;
-  transition: var(--transition);
-  position: relative;
-  width: 130px;
-}
-
-.projects .col .button a span {
-  margin: 10px;
-}
-
-.projects .col .button a::after {
-  content: '';
-  width: 0;
-  height: 2px;
-  background-color: #e32505;
+.projects .col .button i {
   position: absolute;
-  bottom: 7px;
-  left: 10px;
-  transition: var(--transition); 
-}
-
-.projects .col .button a:hover::after {
-  width: 100%;
-}
-
-.projects .col .button .fa-solid {
+  bottom: 0;
+  right: 0;
   font-size: 20px;
 }
+
 
 
 .tooltip {
   visibility: hidden;
   position: absolute;
   right: -20%;
-  top: -30%;
+  top: -50%;
   transform: translateX(-50%);
   color: #000;
   border-radius: 5px;
