@@ -404,12 +404,13 @@ video {
 
 .main-projects .spans span {
   display: block;
-  background-color: #0c2752;
-  color: #fff;
+  background: linear-gradient(135deg, #ff4500, #c29e00 66%);
+  color: #0c2752;
   font-weight: 700;
   font-size: 16px;
   padding: 2px 10px;
   border-radius: 20px;
+  filter: brightness(110%);
 }
 
 .main-projects .name {
