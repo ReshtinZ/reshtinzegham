@@ -310,6 +310,28 @@ nav {
   border-radius: 10px;
 }
 
+.main-projects-btn {
+  color: #fff;
+  background: linear-gradient(135deg, #ff4500, #c29e00 66%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  transition: var(--transition);
+  position: relative;
+  width: 120px;
+  filter: brightness(90%);
+}
+
+.main-projects-btn:hover {
+  filter: brightness(110%);
+}
+
+.material-symbols-outlined {
+  margin-right: 5px;
+}
+
 .main-projects #one::before {
   content: "";
   display: block;
