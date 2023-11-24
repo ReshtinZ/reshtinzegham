@@ -763,6 +763,7 @@ video {
   margin-bottom: 0;
   font-size: 17px;
   color: #504e4e;
+  transition: var(--transition);
 }
 
 .FAQs .question-item label:hover {
