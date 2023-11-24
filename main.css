@@ -539,10 +539,10 @@ video {
 }
 
 .projects .col .button {
-  margin-top: auto;
   padding: 10px 20px 10px 5px;
   position: relative;
-  margin: 40px 20px 20px 0;
+  margin: auto 20px 20px 0;
+  height: 70px;
 }
 
 .projects .col .button i {
@@ -552,13 +552,11 @@ video {
   font-size: 20px;
 }
 
-
-
 .tooltip {
   visibility: hidden;
   position: absolute;
-  right: -20%;
-  top: -50%;
+  right: -18%;
+  top: 50%;
   transform: translateX(-50%);
   color: #000;
   border-radius: 5px;
@@ -568,6 +566,8 @@ video {
   background-color: #fff;
   padding: 10px;
 }
+
+
 
 .button:hover .tooltip {
   visibility: visible;
