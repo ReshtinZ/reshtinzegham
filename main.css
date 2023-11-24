@@ -760,7 +760,6 @@ video {
   overflow: hidden;
   padding-left: 10px;
   padding-right: 10px;
-  transition: var(--transition);
   margin-bottom: 0;
   font-size: 17px;
   color: #504e4e;
