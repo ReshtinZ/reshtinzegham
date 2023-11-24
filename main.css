@@ -312,7 +312,6 @@ nav {
 
 .main-projects-btn {
   color: #fff;
-  background: linear-gradient(135deg, #ff4500, #c29e00 66%);
   padding: 10px 20px;
   border-radius: 5px;
   width: auto;
@@ -321,11 +320,12 @@ nav {
   transition: var(--transition);
   position: relative;
   width: 120px;
-  filter: brightness(90%);
+  background: linear-gradient(135deg, #cc3700, #a38300 66%);
+  font-weight: 500;
 }
 
 .main-projects-btn:hover {
-  filter: brightness(110%);
+  filter: brightness(120%);
 }
 
 .material-symbols-outlined {
