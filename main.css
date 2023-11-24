@@ -404,8 +404,8 @@ video {
 
 .main-projects .spans span {
   display: block;
-  background: linear-gradient(135deg, #ff4500, #c29e00 66%);
-  color: #0c2752;
+  background: #0c2752;
+  color: #fff;
   font-weight: 700;
   font-size: 16px;
   padding: 2px 10px;
