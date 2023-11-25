@@ -202,8 +202,9 @@ nav {
   align-items: center;
   background-color: #010101;
   border-radius: 15px;
-  margin-top: 25px;
-  position: relative;  
+  position: relative;
+  width: calc(100% - 2 * 20px);
+  margin: 25px auto 0 auto;
 }
 
 .links {
