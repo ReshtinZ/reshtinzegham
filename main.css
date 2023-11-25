@@ -882,12 +882,11 @@ video {
   position: relative;
   width: 170px;
   height: 50px;
-  background: linear-gradient(135deg, #ff4500, #c29e00 66%);
-  color: #fff;
+  background: #e3e1e1;
+  color: #000;
+  border: 1px solid #000;
   border-radius: 15px;
-  border: none;
   outline: none;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.7 ease-in-out;
   font-size: 16px;
   cursor: pointer;
@@ -903,6 +902,7 @@ video {
 
 .download:hover {
   filter: brightness(110%);
+  background: #fff;
 }
 
 .download.activebtn {
