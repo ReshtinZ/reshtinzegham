@@ -811,9 +811,8 @@
         button.classList.add("activebtn");
       });
 
-         // Download Button Functionality with Delayed Animation and Button Reset
-      function downloadCV() {
-        // Simulate the animation duration
+      
+       function downloadCV() {
         const animationDuration = 3000;
 
         // Trigger the button animation
@@ -823,10 +822,10 @@
         // Delay the download after the animation duration
         setTimeout(() => {
           // Actual download logic goes here
-          // Simulate the download by creating a link and triggering a click
-          var link = document.createElement("a");
+          const link = document.createElement("a");
           link.href = "/images/CV.pdf";
           link.download = "CV.pdf";
+          link.target = "_blank"; // Open in a new tab/window
           document.body.appendChild(link);
           link.click();
           document.body.removeChild(link);
