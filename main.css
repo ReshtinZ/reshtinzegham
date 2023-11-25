@@ -146,11 +146,13 @@ a {
   z-index: -1; 
 }
 
-.banner .inner {
+.banner-inner {
   z-index: 1;
   position: relative;
+  width: calc(100% - 2 * 20px);
+  margin: 0 auto;
+  max-width: 1200px;
 }
-
 
 .banner-text {
   color: #fff;
