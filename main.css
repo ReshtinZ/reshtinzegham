@@ -869,6 +869,60 @@ video {
   margin-bottom: 30px;
 }
 
+#contact .col.col1 h1 {
+  font-size: 40px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-links a {
+  color: #000;
+  font-size: 16px;
+  padding: 15px 0;
+  position: relative;
+
+}
+
+.contact-links a:first-child {
+  width: 260px;
+}
+ 
+.contact-links a:last-child  {
+  width: 175px;
+}
+
+.contact-links a:first-child span::after  {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 11px;
+    content: '';
+    background: #e32505;
+    height: 1px;
+    width: 0;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+
+.contact-links a:last-child span::after  {
+    position: absolute;
+    left: 0;
+    bottom: 11px;
+    content: '';
+    background: #e32505;
+    height: 1px;
+    width: 0;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+
+.contact-links a span:hover::after {
+  width: 80%;
+}
+
 .contact-links a i {
   color: #e32505;
   margin-right: 15px;
@@ -1061,18 +1115,4 @@ textarea {
   border-radius: 5px;
 }
 
-#contact .col.col1 h1 {
-  font-size: 40px;
-}
-
-.contact-links {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-links a {
-  color: #000;
-  font-size: 16px;
-  padding: 15px 15px 15px 0;
-}
 
