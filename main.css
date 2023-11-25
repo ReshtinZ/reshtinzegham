@@ -207,6 +207,7 @@ nav {
   position: relative;
   width: calc(100% - 2 * 20px);
   margin: 25px auto 0 auto;
+  z-index: 999;
 }
 
 .links {
