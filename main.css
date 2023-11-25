@@ -19,6 +19,10 @@ body {
   margin-top: 20px;
 }
 
+.double-margin {
+  margin-top: 40px;
+}
+
 .inner {
     width: calc(100% - 2 * 20px);
     max-width: 1400px;
