@@ -232,7 +232,7 @@ nav {
     top: 100%; 
     left: 0;
     background-color: #010101;
-    transition: all 0.7s ease-out; 
+    transition: all 0.7s ease-in; 
     max-height: 0;
     overflow: hidden;
   }
