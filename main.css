@@ -132,6 +132,9 @@ a {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner::before {
