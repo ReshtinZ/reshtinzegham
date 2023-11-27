@@ -92,7 +92,9 @@ function toggleMenu() {
     downloadInitiated = false;
   });
 
-  // adding color to the FAQs when hovered
+
+  // Add the color of FAQs when hoverd on
+document.addEventListener("DOMContentLoaded", function () {
   const labels = document.querySelectorAll(".question-item label");
 
   labels.forEach((label) => {
@@ -109,3 +111,5 @@ function toggleMenu() {
       icon.classList.remove("gradient");
     });
   });
+});
+
