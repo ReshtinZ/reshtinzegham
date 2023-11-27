@@ -403,7 +403,7 @@ nav {
 
 .tab-links {
   margin-right: 50px;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 500;
   cursor: pointer;
   position: relative;
@@ -456,7 +456,7 @@ nav {
 
 @media screen and (max-width: 768px) {
 .tab-links {
-  font-size: 19px;
+  font-size: 18px;
   } 
 }
 
