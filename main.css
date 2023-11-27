@@ -721,8 +721,8 @@ video {
   padding: 5px;
   border-radius: 3px;
   font-size: 12px;
-  margin-top: -20px;
-  margin-left: 5px;
+  margin-top: -10px;
+  margin-left: 30px;
 }
 
 .tutorial-section:hover .tooltip {
