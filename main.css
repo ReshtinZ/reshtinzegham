@@ -427,12 +427,12 @@ nav {
 .tab-contents ul li {
   list-style: none;
   margin: 10px 0;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .tab-contents ul li span {
   color: #b54769;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .tab-contents {
