@@ -705,14 +705,14 @@ video {
 .info-icon {
   display: inline-block;
   margin-left: 5px;
-  color: #0077cc; /* Adjust color as needed */
+  color: #fff;
   cursor: pointer;
 }
 
 .tooltip {
   display: none;
   position: absolute;
-  background-color: #333;
+  background-color: #000;
   color: #fff;
   padding: 5px;
   border-radius: 3px;
@@ -721,7 +721,7 @@ video {
   margin-left: 5px;
 }
 
-.tutorial-section:hover .tooltip2 {
+.tutorial-section:hover .tooltip {
   display: block;
 }
 
