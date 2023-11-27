@@ -671,7 +671,7 @@ video {
 
 .projects .text p {
   font-size: 18px;
-  padding: 7px;
+  padding: 10px;
   font-weight: 350;
 }
 
@@ -703,7 +703,7 @@ video {
 }
 
 .tutorial-section {
-    margin: auto 20px 20px 20px;
+    margin: auto 20px 20px 10px;
 }
 
 .info-icon {
