@@ -203,17 +203,23 @@ a {
   background: #2e2e2e;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 1024px) {
   .banner-text h1 {
-    font-size: 2.4rem;
+    font-size: 6rem;
   }
   
   .banner-text p {
-    font-size: 1.6rem;
+    font-size: 3.3rem;
   }
+}
 
-  .banner-buttons {
-    margin-top: 50px;
+@media screen and (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 4rem;
+  }
+  
+  .banner-text p {
+    font-size: 2.7rem;
   }
 }
 
