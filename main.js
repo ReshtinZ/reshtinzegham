@@ -15,53 +15,7 @@ function toggleMenu() {
     document.getElementById(tabname).classList.add("active-tab");
   }
 
-  // Exclamation Marks
 
-  document.addEventListener("DOMContentLoaded", function () {
-    // Exclamation Marks
-    var exclamationIcon = document.querySelector(".fa-circle-exclamation");
-    var tooltip = document.getElementById("auto-typer");
-
-    // Initialize Typed.js for auto-typer
-    var autoTyper = new Typed("#auto-typer", {
-      strings: ["This is a Tutorial Project."],
-      typeSpeed: 40,
-      backSpeed: 10,
-      showCursor: false,
-      loop: true,
-    });
-
-    var autoTyper = new Typed("#auto-typer-1", {
-      strings: ["This is a Tutorial Project."],
-      typeSpeed: 40,
-      backSpeed: 10,
-      showCursor: false,
-      loop: true,
-    });
-
-    var autoTyper = new Typed("#auto-typer-2", {
-      strings: ["This is a Tutorial Project."],
-      typeSpeed: 40,
-      backSpeed: 10,
-      showCursor: false,
-      loop: true,
-    });
-
-    var autoTyper = new Typed("#auto-typer-4", {
-      strings: ["This is a Tutorial Project."],
-      typeSpeed: 40,
-      backSpeed: 10,
-      showCursor: false,
-      loop: true,
-    });
-
-    var autoTyper = new Typed("#auto-typer-5", {
-      strings: ["This is a Tutorial Project."],
-      typeSpeed: 40,
-      backSpeed: 10,
-      showCursor: false,
-      loop: true,
-    });
 
     // Show/hide tooltip on hover
     exclamationIcon.addEventListener("mouseover", function () {
