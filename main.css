@@ -458,7 +458,7 @@ nav {
   }   
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
 .tab-links {
   font-size: 20px;
   } 
