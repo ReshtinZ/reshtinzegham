@@ -737,6 +737,28 @@ video {
   opacity: 1;
 }
 
+.info-icon {
+  display: inline-block;
+  margin-left: 5px;
+  color: #0077cc; /* Adjust color as needed */
+  cursor: pointer;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+
+.tutorial-section:hover .tooltip {
+  display: block;
+}
 
 
 
