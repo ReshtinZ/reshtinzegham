@@ -166,7 +166,9 @@ a {
 }
 
 .banner-text h1 {
-  font-size: 6rem;
+  font-size: 5.5rem;
+  font-family: 'Comforter Brush', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .banner-text p {
