@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+    
 function toggleMenu() {
     var linksContainer = document.querySelector(".links");
     linksContainer.classList.toggle("show");
@@ -94,7 +96,7 @@ function toggleMenu() {
 
 
   // Add the color of FAQs when hoverd on
-document.addEventListener("DOMContentLoaded", function () {
+
   const labels = document.querySelectorAll(".question-item label");
 
   labels.forEach((label) => {
