@@ -712,7 +712,7 @@ video {
 .projects .col .button i {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   font-size: 20px;
 }
 
