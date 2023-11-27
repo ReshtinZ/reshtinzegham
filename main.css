@@ -448,6 +448,20 @@ nav {
     max-width: 600px;
     margin: 0 auto;
   }
+
+  .tab-links {
+  font-size: 22px;
+  } 
+
+  .tab-contents ul li {
+  font-size: 18px;
+  }   
+}
+
+@media screen and (max-width: 768) {
+.tab-links {
+  font-size: 20px;
+  } 
 }
 
 
