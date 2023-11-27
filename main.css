@@ -711,6 +711,7 @@ video {
   margin-left: 5px;
   color: #000;
   cursor: pointer;
+  transition: var(--transition);
 }
 
 .tooltip {
@@ -723,6 +724,7 @@ video {
   font-size: 12px;
   margin-top: -25px;
   margin-left: 30px;
+  transition: var(--transition);
 }
 
 .tutorial-section:hover .tooltip {
