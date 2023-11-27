@@ -351,6 +351,7 @@ nav {
 
 .about p {
   line-height: 1.3;
+    font-size: 22px;
 }
 
 .about .col.col1 img {
@@ -376,7 +377,7 @@ nav {
 
 .tab-links {
   margin-right: 50px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
   cursor: pointer;
   position: relative;
@@ -400,6 +401,7 @@ nav {
 .tab-contents ul li {
   list-style: none;
   margin: 10px 0;
+  font-size: 20px;
 }
 
 .tab-contents ul li span {
