@@ -164,6 +164,7 @@ a {
 .banner-text {
   color: #fff;
   font-family: 'Comforter Brush', cursive;
+  text-align: center;
 }
 
 .banner-text h1 {
