@@ -1026,7 +1026,8 @@ video {
 
 
 .download:hover {
-  filter: brightness(110%);
+  background-color: #e32505;
+  color: #fff;
 }
 
 .download.activebtn {
