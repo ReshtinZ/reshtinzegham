@@ -203,16 +203,17 @@ a {
 }
 
 .banner-btn {
-  color: #fff;
+  color: #000;
   padding: 20px 40px;
-  border: 1px solid #fff;
+  border: 1px solid #000;
   border-radius: 10px;
   transition: var(--transition);
   font-weight: 600;  
+  background: transparent;
 }
 
 .banner-btn:hover {
-  background: #2e2e2e;
+  background: ;
 }
 
 @media screen and (max-width: 1024px) {
