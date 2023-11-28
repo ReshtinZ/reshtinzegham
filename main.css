@@ -1015,14 +1015,13 @@ video {
   border: 1px solid #000;
   border-radius: 7px;
   outline: none;
-  transition: all 0.7 ease-in-out;
   font-size: 16px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.7s ease-in-out;
   font-wieght: 600;  
+  transition: var(--transition);  
 }
 
 
