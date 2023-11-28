@@ -907,7 +907,7 @@ video {
 }
 
 .btn {
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid #000;
   background: #fff;
   display: flex;
@@ -1012,7 +1012,7 @@ video {
   background: #fff;
   color: #000;
   border: 1px solid #000;
-  border-radius: 15px;
+  border-radius: 5px;
   outline: none;
   transition: all 0.7 ease-in-out;
   font-size: 16px;
@@ -1021,6 +1021,7 @@ video {
   justify-content: center;
   align-items: center;
   transition: 0.7s ease-in-out;
+  font-wieght: 600;  
 }
 
 
