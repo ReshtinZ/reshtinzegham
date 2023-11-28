@@ -909,11 +909,11 @@ video {
 .btn {
   border-radius: 10px;
   border: 1px solid #000;
-  background: transparent;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;  
-  color: #e32505;
+  color: #000;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -1009,7 +1009,7 @@ video {
   position: relative;
   width: 170px;
   height: 50px;
-  background: #e3e1e1;
+  background: #fff;
   color: #000;
   border: 1px solid #000;
   border-radius: 15px;
@@ -1026,7 +1026,6 @@ video {
 
 .download:hover {
   filter: brightness(110%);
-  background: #fff;
 }
 
 .download.activebtn {
