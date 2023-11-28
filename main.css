@@ -925,6 +925,7 @@ video {
 .btn:hover {
   background-color: #e32505;
   color: #fff;
+  border: none;  
 }
 
 .social-icons {
@@ -1028,6 +1029,7 @@ video {
 .download:hover {
   background-color: #e32505;
   color: #fff;
+  border: none;  
 }
 
 .download.activebtn {
