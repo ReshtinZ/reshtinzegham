@@ -1035,6 +1035,7 @@ video {
   font-size: 0;
   width: 50px;
   background: #ededed;
+  border: none;  
 }
 
 .progress-wrapper {
