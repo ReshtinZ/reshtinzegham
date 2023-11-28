@@ -206,7 +206,7 @@ a {
   color: #fff;
   padding: 20px 40px; 
   border: 1px solid #fff;
-  border-radius: 10px;
+  border-radius: 7px;
   transition: var(--transition);
   font-weight: 600;
 }
@@ -907,7 +907,7 @@ video {
 }
 
 .btn {
-  border-radius: 5px;
+  border-radius: 7px;
   border: 1px solid #000;
   background: #fff;
   display: flex;
@@ -1013,7 +1013,7 @@ video {
   background: #fff;
   color: #000;
   border: 1px solid #000;
-  border-radius: 5px;
+  border-radius: 7px;
   outline: none;
   transition: all 0.7 ease-in-out;
   font-size: 16px;
