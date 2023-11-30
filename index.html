@@ -613,59 +613,63 @@
         </div>
       </div>
     </div>
-    
-    <div class="inner">
-      <div id="contact">
-        <div class="gridrow box50">
-          <div class="col col1" data-aos="fade-right">
-            <h1>Contact Me</h1>
-            <div class="contact-links margin">
-              <a href="mailto:reshtinzegham@icloud.com">
-                <i class="fa-solid fa-paper-plane"> </i>
-                reshtinzegham@icloud.com
-              </a>
-              <a href="tel:+4915734430318">
-                <i class="fa-solid fa-phone"></i>
-                +49 15734430318
-              </a>
-            </div>
 
-            <div class="social-icons margin">
-              <a href="https://github.com/ReshtinZegham"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-              <a href="https://instagram.com/reshtinzegham"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a href="https://linkedin.com/reshtinzegham"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
+        <div class="inner">
+      <div class="contact" id="contact">
+        <div class="gridrow box50">
+          <div class="col col1">
+            <div class="contact-img">
+              <img src="/images/contact-sec-removebg-preview.png" alt="" />
             </div>
-            <button class="download button" onclick="downloadCV()">
-              Download CV
-              <div class="progress-wrapper">
-                <div class="btn-inner"></div>
-                <div class="checkmark">
-                  <span></span>
-                  <span></span>
-                </div>
-                <div class="circle">
-                  <div class="bar left">
-                    <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                    <div class="progress"></div>
-                  </div>
-                </div>
+            <div class="contact-links">
+              <div class="contact-links margin">
+                <a href="tel:+4915734430318">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <span>+49 157 344 30318</span>
+                </a>
+                <a href="mailto:reshtinzegham@icloud.com">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>reshtinzegham@icloud.com</span>
+                </a>
               </div>
-            </button>
+              <div class="contact-links-btn">
+                <button class="download button" onclick="downloadCV()">
+                  Download CV
+                  <div class="progress-wrapper">
+                    <div class="btn-inner"></div>
+                    <div class="checkmark">
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="circle">
+                      <div class="bar left">
+                        <div class="progress"></div>
+                      </div>
+                      <div class="bar right">
+                        <div class="progress"></div>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="col col2" data-aos="fade-left">
-            <form>
-              <input type="text" name="Name" placeholder="Your Name" required />
+          <div class="col col2">
+            <form class="form">
+              <div class="input-container">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Username"
+                  class="icon-input"
+                  id="name"
+                  required
+                />
+              </div>
               <input
                 type="email"
                 name="email"
+                id="email"
                 placeholder="Your Email Address"
                 required
               />
@@ -673,30 +677,17 @@
                 name="message"
                 rows="10"
                 placeholder="Your Message"
+                id="message"
               ></textarea>
-              <button class="btn">
-                Submit
-                <div class="progress-wrapper">
-                  <div class="btn-inner"></div>
-                  <div class="checkmark">
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <div class="circle">
-                    <div class="bar left">
-                      <div class="progress"></div>
-                    </div>
-                    <div class="bar right">
-                      <div class="progress"></div>
-                    </div>
-                  </div>
-                </div>
-              </button>
+              <button type="submit" class="btn">Submit</button>
             </form>
           </div>
         </div>
       </div>
     </div>
+        
+         
+      
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
   </body>
