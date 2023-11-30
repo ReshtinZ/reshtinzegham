@@ -1303,14 +1303,20 @@ textarea {
 
 
 .copyright-wrapper {
-  color: rgb(223, 223, 223);
-  background: rgb(45, 45, 51);
   text-align: center;
   padding: 20px;
+  color: rgb(223, 223, 223);
+  background: rgb(45, 45, 51);
 }
 
 .copyright-wrapper p {
   font-size: 14px;
+  color: rgb(128, 128, 131);
+  transition: var(--transition);
+}
+
+.copyright-wrapper p:hover {
+  color: #fff;
 }
 
 
