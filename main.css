@@ -379,6 +379,7 @@ nav {
 
 .about p {
   line-height: 1.3;
+  font-size: 18px;
 }
 
 .about .col.col1 img {
@@ -459,6 +460,12 @@ nav {
 .tab-links {
   font-size: 18px;
   } 
+}
+
+@media screen and (max-width: 568px) {
+  .about p {
+    font-size: 17px;
+  }
 }
 
 
