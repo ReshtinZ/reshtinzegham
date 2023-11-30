@@ -903,10 +903,11 @@ video {
 /*-------- Contact -------*/
 
 .contact {
-  background-color: #fff;
-  height: 100vh;
+  height: 100%;
   display: grid;
   place-content: center;
+  padding: 10% 0;
+  background-color: #fff;
 }
 
 .contact .col.col1 {
@@ -1004,7 +1005,6 @@ video {
 }
 
 .download:hover {
-  filter: brightness(110%);
   background: #e32505;
   color: #fff;
 }
@@ -1132,7 +1132,7 @@ transform: rotate(180deg);
 }
 
 form {
-  width: 70%;
+  width: 100%;
   box-shadow: 0px 0px 30px rgba(34, 34, 34, 0.05);
   padding: 50px;
   border-radius: 10px;
@@ -1158,10 +1158,6 @@ textarea {
   box-sizing: border-box;
   border-radius: 5px;
 }
-
-
-
-
 
 
 
