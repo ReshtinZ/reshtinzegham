@@ -1295,6 +1295,7 @@ textarea {
     position: absolute;
     top: 60%;
     right: 0;
+    width: 20%;  
   }
 }
 
