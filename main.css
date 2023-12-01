@@ -775,7 +775,7 @@ video {
   padding: 5px;
   border-radius: 3px;
   font-size: 12px;
-  margin-top: -25px;
+  margin-top: -24px;
   margin-left: 30px;
   transition: var(--transition);
 }
