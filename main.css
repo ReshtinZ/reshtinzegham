@@ -909,12 +909,6 @@ video {
 
 /*-------- Contact -------*/
 
-.contact-wrapper {
-  width: 100vw;
-  height: 100%;
-  padding: 10% 0;
-}
-
 .contact {
   display: grid;
   place-content: center;
