@@ -1211,7 +1211,9 @@ textarea {
 }
 
 .social-icons a:hover {
-  transform: translateY(-5px);
+ transform: translateY(-5px);
+  color: #fff;
+  filter: brightness(200%);
 }
 
 .footer-links {
