@@ -474,6 +474,11 @@ nav {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .tab-titles {
+    flex-wrap: wrap;
+  }
+}
 
 
 /*-------- main-projects ---------*/
