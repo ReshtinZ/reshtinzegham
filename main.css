@@ -382,6 +382,11 @@ nav {
   font-size: 18px;
 }
 
+.about .col.col1 {
+  display: grid;
+  place-content: center;
+}
+
 .about .col.col1 img {
   width: 100%;
   height: 100%;
