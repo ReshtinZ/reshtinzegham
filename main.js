@@ -58,7 +58,7 @@ function toggleMenu() {
     // Delay the download after the animation duration
     setTimeout(() => {
       // Actual download logic goes here
-      const link = document.createElement("a");
+     const link = document.createElement("a");
       link.href = "/images/CV.pdf";
       link.download = "CV.pdf";
       link.target = "_blank"; // Open in a new tab/window
