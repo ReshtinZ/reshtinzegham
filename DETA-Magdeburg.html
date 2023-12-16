@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="theothers.css" />
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <nav>
+        <div class="logo">
+          <img src="/images/Logo.svg" alt="" />
+        </div>
+        <div class="links" id="links">
+          <ul>
+            <li>
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#projects">
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="#FAQs">
+                <span>FAQs</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="toggleMenu()" id="open-menu"></i>
+        <i class="fa-solid fa-xmark" onclick="toggleMenu()" id="close-menu"></i>
+      </nav>
+    </div>
+    <div class="inner-2">
+      <div class="first-part gridrow box50">
+        <div class="info col col1">
+          Deta-Magdeburg marks a pivotal moment in my career, being the first
+          project I worked on during my internship at Wonderlab. It holds
+          special importance as one of the most significant endeavors in my
+          professional journey so far.
+        </div>
+        <div class="image col col2">
+          <img src="/images/therothers/Deta1.webp" alt="" />
+        </div>
+      </div>
+      <div class="space-medium"></div>
+      <div class="gridrow box50">
+        <div class="image col col1">
+          <img src="/images/therothers/Deta2-webp" alt="" />
+        </div>
+        <div class="info col col2">
+          Deta-Magdeburg marks a pivotal moment in my career, being the first
+          project I worked on during my internship at Wonderlab. It holds
+          special importance as one of the most significant endeavors in my
+          professional journey so far.
+        </div>
+      </div>
+      <div class="space-medium"></div>
+      <div class="gridrow box50">
+        <div class="info col col1">
+          Deta-Magdeburg marks a pivotal moment in my career, being the first
+          project I worked on during my internship at Wonderlab. It holds
+          special importance as one of the most significant endeavors in my
+          professional journey so far.
+        </div>
+        <div class="image col col2">
+          <img src="/images/therothers/Deta3.webp" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="space-medium"></div>
+    <footer>
+      <div class="footer">
+        <div class="inner-2">
+          <div class="gridrow box33">
+            <div class="col col1">
+              <div class="footer-contact">
+                <a href="tel:+4915734430318">
+                  <span>+49 157 344 30318</span>
+                </a>
+                <a href="mailto:reshtinzegham@icloud.com">
+                  <span>reshtinzegham@icloud.com</span>
+                </a>
+              </div>
+              <div id="contact">
+                <div class="social-icons margin">
+                  <a href="https://github.com/Reshtin-Zegham"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a
+                    href="https://instagram.com/r_zegham?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a href="http://linkedin.com/in/reshtin-zegham-275518266"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-links col col2">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>Home</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#about">
+                    <span>About</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#projects">
+                    <span>Projects</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#FAQs">
+                    <span>FAQs</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact">
+                    <span>Contact</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col col3">
+              <a href="#">
+                <img class="up" src="/images/up-without-background.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-wrapper">
+        <p>&copy; 2023 Reshtin Zegham All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="main.js"></script>
+    <script>
+      const name = document.getElementById("name");
+      const email = document.getElementById("email");
+      const message = document.getElementById("message");
+      const submit = document.getElementsByClassName("form")[0];
+
+      submit.addEventListener("submit", (e) => {
+        e.preventDefault();
+        console.log("clicked");
+
+        let ebody = `
+          <b> Name: </b>${name.value}
+          <br>
+          <b> Email: </b>${email.value}
+          <br>
+          <b> Message: </b>${message.value}
+          <br>
+          `;
+
+        Email.send({
+          SecureToken: "cb870505-e8d4-4398-804c-b00e8fe8d654",
+          To: "reshtinzegham18@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Message",
+          Body: ebody,
+        }).then((message) => alert(message));
+      });
+    </script>
+  </body>
+</html>
