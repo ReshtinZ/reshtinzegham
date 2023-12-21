@@ -544,7 +544,7 @@ nav {
   border-radius: 10px;
 }
 
-..main-projects-button {
+.main-projects-button {
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;
