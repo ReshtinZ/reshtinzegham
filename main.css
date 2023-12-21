@@ -559,7 +559,6 @@ nav {
   align-items: center;
   transition: var(--transition);
   position: relative;
-  width: 165px;
   font-weight: 500;
   border: 1px solid #fff;
   background: transparent;
